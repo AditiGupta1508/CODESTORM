@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100ch;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://images.pexels.com/photos/7567443/pexels-photo-7567443.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    
+}
+.container{
+    filter: drop-shadow(10px 1px 15px rgb(18, 18, 18));
+    border-radius: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 20px;
+    background: rgb(242, 243, 244);
+    width:70%;
+    font-size:20px ;
+
+}
+.heading{
+    font-weight: 40px;
+    font-size: 40px;
+    text-decoration-color: cadetblue ;
+}
+.namedetail{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+  .button input[type="submit"] {
+    width: 100%;
+    background: #6498ba;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+    height: ;
+}
+button input[type="submit"]:hover {
+    background: #2a0b38;
+
+    
+}
+
+button:hover{
+background-color: beige;
+}
+#username ,#email,#phoneno {
+    width: 70%;
+    background-color: #bfddf3;
+    color: white;
+    padding: 14px 20px;
+    
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
